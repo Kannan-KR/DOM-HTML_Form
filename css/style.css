@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* title and desccription */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* form design */
+#form {
+  background-color: #dbe7fe;
+}
+
+/* flex - personal details, favourite food */
+.name,
+.food_cbox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* name - justify content */
+.name {
+  justify-content: space-evenly;
+}
+
+/* textarea */
+#address {
+  width: 80%;
+}
+
+/*flex - address details */
+.addresses {
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* submit button */
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+/* for small/mobile screens */
+@media only screen and (max-width: 768px) {
+  #form {
+    width: 100%;
+  }
+  .name {
+    height: 15vh;
+  }
+}
