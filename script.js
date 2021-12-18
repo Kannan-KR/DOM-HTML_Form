@@ -20,7 +20,7 @@ document.getElementById("form").addEventListener("submit", function () {
   // Check if minimum of two favourite foods are selected
   if (food.length < 2) {
     document.getElementById("error").innerHTML =
-      "* please select atleast 2 favorite foods";
+      "* please select atleast 2 favourite foods";
   } else {
     let error = document.getElementById("error");
     if (error.firstChild) {
